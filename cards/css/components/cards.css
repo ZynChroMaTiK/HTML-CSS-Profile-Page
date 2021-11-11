@@ -1,0 +1,77 @@
+/* Your card CSS file */
+.card-category {
+    background-image: linear-gradient(rgba(0,0,0,0.15), rgba(0,0,0,0.15)), url("https://c.tenor.com/Ix20LNasW24AAAAC/ghibli-food.gif");
+    background-size: cover;
+    background-position: center;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+
+.card-product {
+  --image: url(https://www.justonecookbook.com/wp-content/uploads/2017/07/Spicy-Shoyu-Ramen-NEW-500x400.jpg);
+  overflow: hidden;
+  height: 120px;
+  background: white;
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), var(--image);
+  background-position: center;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+.card-product .image {
+    background-image: var(--image);
+    height: 100%;
+    width: 120px;
+    background-size: cover;
+}
+.card-product .info {
+    margin: 16px;
+}
+
+.card-trip {
+    overflow: hidden;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+.card-trip .banner {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+.card-trip h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+.card-trip .info{
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: relative;
+}
+.card-trip p {
+  font-size: 12px;
+  opacity: .7;
+  margin: 0;
+}
+.avatar-bordered {
+  position: absolute;
+  right: 30px;
+  top: -40px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+  border: white 1px solid;
+}

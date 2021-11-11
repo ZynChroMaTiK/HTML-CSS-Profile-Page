@@ -1,0 +1,41 @@
+/* Import fonts from Google Fonts */
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Raleway:300,400,500,700");
+
+/* Importing all components file */
+@import url("components/cards.css");
+
+/* General for fonts and colors */
+body {
+  background-color: black;
+  margin: 0px;
+  font-family: 'Open Sans', sans-serif;
+}
+body:before {
+    content: '';
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://c0.wallpaperflare.com/preview/283/691/600/japan-kyoto-gion-night.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: cover;
+    filter: blur(10px);
+    z-index: -9;
+}
+
+h1, h2, h3 {
+  font-family: Raleway, Helvetica, sans-serif;
+}
+a {
+  text-decoration: none;
+}
+.text-center {
+  text-align: center;
+}
+
+.container {
+  padding-top: 100px;
+  width: 500px;
+  margin: 0 auto;
+}
