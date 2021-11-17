@@ -1,0 +1,37 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+#container {
+  height: 50vh;
+  width: 0vh;
+  transition: 1s;
+}
+
+#container input {
+  width: 100%;
+  height: 32px;
+  text-align: center;
+  line-height: 32px;
+  font-size: 24px;
+  border: none;
+  border-bottom: 2px solid black;
+  opacity: 0;
+  transition: 2s;
+  outline: none;
+}
+
+#results {
+  list-style-type: none;
+  text-align: center;
+  padding: 16px;
+  transition: ease .5s;
+}
+
+li {
+  padding: 4px;
+}
