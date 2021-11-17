@@ -29,7 +29,9 @@ body {
   list-style-type: none;
   text-align: center;
   padding: 16px;
-  transition: ease .5s;
+  transition-property: opacity, filter;
+  transition-duration: .5s;
+  transition-timing-function: ease;
 }
 
 li {
